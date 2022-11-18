@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+html{
+	font-size: 100%;
+}
+
+body{
+	font-family: 'Noto Sans JP', sans-serif;
+	line-height: 1.7;
+	color: #857568;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+/*ヘッダー*/
+
+.wrapper{
+	padding: 0 20px;
+}
+
+#top{
+	background: url("../images/IMG_8058.JPG") no-repeat center top;
+	background-size: cover;
+	height: 200px;
+	margin-bottom: 50px;
+}
+
+.header-flex{
+}
+
+header h1{
+	font-family: 'Amatic SC', "cursive";
+	font-size: 4rem;
+	font-weight: normal;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}
+
+header li{
+	padding: 0 20px;
+}
+
+header a {
+	color:#fff;
+	font-size: 0.9rem;
+}
+
+header a:hover{
+	color: #9dff00;
+	border-bottom: #9dff00 1.2px solid;
+}
+
+.header-menu{
+	background-color: rgba(37, 37, 37, 0.4);
+	padding: 5px 0;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+	text-align: center;
+
+}
+
+/*記事*/
+article{
+	margin-bottom: 40px;
+
+}
+
+article h2{
+	font-family: 'Shippori Mincho', serif;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.diary{
+	border-top: #d8d0c9 1px solid;
+	padding: 20px 0;
+}
+
+.diary-title a{
+	color: #679c11;
+}
+
+.diary-title a:hover{
+	color: #9cd145;
+}
+
+.diary img{
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+}
+
+.diary-title p{
+	font-size: 0.9rem;
+	color: #a59283;
+	margin-bottom: 20px;
+}
+
+.more-btn{
+	display: inline-block;
+	border: #d8d0c9 1px solid;
+	text-align: center;
+	width: 100%;
+	padding: 10px 40px;
+	font-size: 0.8rem;
+	color: #857568;
+}
+
+
+.more-btn:hover{
+	background-color: #f8f8f8;
+}
+
+/*サイドメニュー*/
+.side-box{
+	margin-bottom: 50px;
+}
+
+.side-box h3{
+	font-family: 'Amatic SC', "cursive";
+	font-size: 1.3rem;
+	font-weight: 600;
+	background-color: #f8f8f8;
+	padding: 5px 15px;
+	text-align: center;
+	margin-bottom: 15px;
+
+}
+
+.side-box li{
+	border-bottom: #d8d0c9 1px dashed;
+
+}
+
+.side-box li:hover{
+	background-color: #f4fde6;
+}
+
+.side-box a{
+	display: block;
+	color: #a59283;
+	font-size: 0.9rem;
+	padding: 10px 15px;
+}
+
+.side-box p{
+	font-size: 0.9rem;
+	padding: 0 15px;
+}
+
+.magazine{
+	display: flex;
+	margin: 15px 15px;
+}
+
+input[type="email"]
+{
+	display: block;
+	border: #d8d0c9 1px solid;
+	padding: 8px 8px;
+	width: 70%;
+}
+
+input[type="submit"]{
+	color: #fff;
+	font-size: 0.9rem;
+	display: block;
+	padding: 8px 15px;
+	background-color: #857568;
+}
+
+.fa-caret-down {
+	padding-right: 5px;
+}
+
+.fa-brands {
+	font-size: 1.5rem;
+}
+
+.sns-icon {
+	margin: 15px 15px 0 15px;
+}
+
+.sns-icon a{
+	padding: 0 5px;
+	display: inline;
+}
+
+/*ページネーション*/
+.pagenation{
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+	font-family: 'Shippori Mincho', serif;
+	font-size: 1.3rem;
+	text-align: center;
+	line-height: 1.8;
+}
+
+.pagenation a, .current{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 6px;
+}
+
+.pagenation a:hover{
+	border: #d8d0c9 1px solid;
+}
+
+.current {
+	background: #d8d0c9;
+	color: #fff;
+}
+
+footer{
+	background-color: #857568;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+}
+
+/*ページ個別*/
+.page-title{
+	border-top: #d8d0c9 1px solid;
+	border-bottom: #d8d0c9 1px solid;
+	padding: 20px 15px;
+	margin-bottom: 30px;
+}
+
+.page-title p{
+	font-size: 0.9rem;
+	color: #a59283;
+}
+
+.fa-clock{
+	margin-right: 5px;
+}
+
+.pege-text{
+	margin: 0 auto;
+}
+
+.page-text img{
+	display: block;
+	width: 70%;
+	height: auto;
+	margin: auto;
+}
+
+.page-text h3{
+	margin: 40px 0 20px 0;
+	font-size: 1.2rem;
+	background-color: #f8f8f8;
+	padding: 4px 15px;
+}
+
+.page-text p{
+	margin-bottom: 30px;
+}
+
+.page-text h4{
+	margin: 40px 0 20px 0;
+}
+
+.pagenation-page{
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 0;
+	font-family: 'Shippori Mincho', serif;
+	text-align: center;
+
+}
+
+.pagenation-page a{
+	display: inline-block;
+	border: #d8d0c9 1px solid;
+	padding: 12px 25px;
+	color: #a59283;
+	width: 180px;
+}
+
+.pagenation-page a:hover{
+	background: #f4fde6;
+}
+
+.fa-caret-left {
+	padding-right:10px;
+}
+
+.fa-caret-right {
+	padding-left:10px;
+}
+
+/*レスポンシブ(スマホファースト)*/
+
+@media (min-width:600px){
+	#top{
+		height: 280px;
+	}
+	.wrapper-max{
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+
+	.header-flex{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	header h1{
+		margin-left: 100px;
+		padding-top: 90px;
+	}
+
+	.header-menu{
+		margin-top: 230px;
+		background-color:unset;
+	}
+
+	/*contents*/
+	.contents{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	article{
+		width: 70%;
+	}
+	
+	aside{
+		width: 25%;
+	}
+
+	.diary-title{
+		position: relative;
+		top:0;
+		margin-left: 245px;
+	}
+
+	.diary img{
+		width: 220px;
+		height: auto;
+		object-fit: cover;
+		position: absolute;
+	}
+
+	.more-btn {
+		width: auto;
+	}
+
+	.sticky{
+		position: sticky;
+		top:1rem;
+	}
+}
