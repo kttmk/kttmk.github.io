@@ -257,7 +257,7 @@ footer{
 
 .page-text img{
 	display: block;
-	width: 70%;
+	width: 100%;
 	height: auto;
 	margin: auto;
 }
@@ -277,24 +277,23 @@ footer{
 	margin: 40px 0 20px 0;
 }
 
-.pagenation-page{
-	display: flex;
-	justify-content: space-between;
-	margin: 100px 0;
+.pagenation-page,.back-btn{
 	font-family: 'Shippori Mincho', serif;
 	text-align: center;
-
 }
 
-.pagenation-page a{
+.pagenation-page a,
+.back-btn a{
 	display: inline-block;
 	border: #d8d0c9 1px solid;
 	padding: 12px 25px;
 	color: #a59283;
-	width: 180px;
+	width: 100%;
+	margin: 10px 0 ;
 }
 
-.pagenation-page a:hover{
+.pagenation-page a:hover,
+.back-btn:hover{
 	background: #f4fde6;
 }
 
@@ -366,5 +365,20 @@ footer{
 	.sticky{
 		position: sticky;
 		top:1rem;
+	}
+
+	.pagenation-page{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.pagenation-page a,
+	.back-btn a{
+		width: 180px;
+	}
+
+	.page-text img{
+		width: 70%;
+		height: auto;
 	}
 }
