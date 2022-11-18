@@ -37,9 +37,6 @@ img{
 	margin-bottom: 50px;
 }
 
-.header-flex{
-}
-
 header h1{
 	font-family: 'Amatic SC', "cursive";
 	font-size: 4rem;
@@ -213,6 +210,7 @@ input[type="submit"]{
 
 .pagenation a, .current{
 	display: inline-block;
+	color: #857568;
 	width: 40px;
 	height: 40px;
 	margin: 0 6px;
@@ -278,6 +276,7 @@ footer{
 }
 
 .pagenation-page,.back-btn{
+	margin: auto;
 	font-family: 'Shippori Mincho', serif;
 	text-align: center;
 }
@@ -289,7 +288,6 @@ footer{
 	padding: 12px 25px;
 	color: #a59283;
 	width: 100%;
-	margin: 10px 0 ;
 }
 
 .pagenation-page a:hover,
@@ -373,7 +371,7 @@ footer{
 	}
 
 	.pagenation-page a,
-	.back-btn a{
+	.back-btn{
 		width: 180px;
 	}
 
